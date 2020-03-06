@@ -20,6 +20,9 @@
   "keywords": [
     "hageregebeya"
   ],
+  "engines": {
+    "node": "12.11.1"
+  },
   "bugs": {
     "url": "https://github.com/fraolBatole/HagereGebeyaBot/issues"
   },
