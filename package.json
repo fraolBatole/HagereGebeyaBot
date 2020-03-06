@@ -21,7 +21,8 @@
     "hageregebeya"
   ],
   "engines": {
-    "node": "12.11.1"
+    "node": "12.16.1",
+    "npm": "6.13.4"
   },
   "bugs": {
     "url": "https://github.com/fraolBatole/HagereGebeyaBot/issues"
