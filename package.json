@@ -1,0 +1,31 @@
+{
+  "name": "hageregebeyabot",
+  "version": "1.0.0",
+  "description": "simple bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "f",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.36.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraolBatole/HagereGebeyaBot.git"
+  },
+  "keywords": [
+    "hageregebeya"
+  ],
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "bugs": {
+    "url": "https://github.com/fraolBatole/HagereGebeyaBot/issues"
+  },
+  "homepage": "https://github.com/fraolBatole/HagereGebeyaBot#readme"
+}
