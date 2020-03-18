@@ -1,8 +1,4 @@
-const Telegraf = require('telegraf')
+require("dotenv").config();
 
-const bot = new Telegraf('753325569:AAEIfdrTOBxjcpzcmnpPLMRhHZYyRnFqsi4')
-bot.start((ctx) => ctx.reply('Welcome'))
-bot.help((ctx) => ctx.reply('Send me a sticker'))
-bot.on('sticker', (ctx) => ctx.reply('👍'))
-bot.hears('hi', (ctx) => ctx.reply('Hey there'))
-bot.launch()
+var bot = require('./bot');
+require('./web')(bot);

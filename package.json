@@ -1,31 +1,19 @@
 {
-  "name": "hageregebeyabot",
-  "version": "1.0.0",
-  "description": "simple bot",
+  "name": "heroku-node-telegram-bot",
+  "version": "1.0.3",
+  "description": "Starter pack for running telegram bot on the Heroku using Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "switch_to_dev": "export $(cat .env | xargs) && wget --spider https://api.telegram.org/bot$TOKEN/setWebhook?url= --delete-after && node index.js"
   },
-  "author": "f",
+  "author": "Volodymyr Lut",
   "license": "ISC",
   "dependencies": {
-    "telegraf": "^3.36.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fraolBatole/HagereGebeyaBot.git"
-  },
-  "keywords": [
-    "hageregebeya"
-  ],
-  "engines": {
-    "node": "12.16.1",
-    "npm": "6.13.4"
-  },
-  "bugs": {
-    "url": "https://github.com/fraolBatole/HagereGebeyaBot/issues"
-  },
-  "homepage": "https://github.com/fraolBatole/HagereGebeyaBot#readme"
+    "body-parser": "^1.15.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
